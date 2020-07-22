@@ -1,3 +1,4 @@
+require 'pry'
 def nyc_pigeon_organizer(data)
-  data.map { |name| name == "Theo" } 
+  binding.pry
 end
