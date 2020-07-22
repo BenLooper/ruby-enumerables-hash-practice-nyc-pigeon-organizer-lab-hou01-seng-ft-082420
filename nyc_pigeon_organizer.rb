@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
         if !final_NDS[name]
           final_NDS[name] = {}
         end 
-        if !final_NDS[name][]
+        binding.pry 
       end 
     end 
 end
