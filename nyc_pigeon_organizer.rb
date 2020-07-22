@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
         if !final_NDS[name][key]
           final_NDS[name][key] = []
         end
-        final_NDS[name][key].push(inner_key)
+        final_NDS[name][key].push(inner_key.to_s)
       end 
     end 
 end
